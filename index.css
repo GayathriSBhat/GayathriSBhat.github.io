@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    font-family: 'Fasthand', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Ruslan Display', cursive;
+color: white;
+box-sizing: border-box;
+}
+.logo{
+    position: fixed;
+    height: 100px;
+    width:100px;
+    margin-left: 50px;
+    margin-top: 30px;
+    z-index: 1000;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    font-weight: 100;
+    font-size: large;
+    z-index: 1000;
+   }
+.nav a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 150px;
+}
+.selection{
+    font-weight: 600;
+    list-style: none;
+}
+.video {
+    display: block;
+    position: absolute;
+    top:0;
+    z-index: -1;   
+}
+
+.firstH{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    margin-top: 50px;
+    font-weight: 500;
+    color: white;
+    
+}
+.firstH > h1{
+    font-size: 70px;
+}
+.btnContainer{
+    text-align: center;
+}
+.btn1{
+    margin-top: 40px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    background-color: #ff0066;
+    font-size: 20px;
+}
+.btn2{
+    height: 60px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/*.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    
+}*/
+
+.features{
+    top: 200vh;
+    margin-top: 300px;
+    height: fit-content;
+}
+.features h1{
+    display: grid;
+    place-items: center;
+    color: #424242;
+    font-size: 55px;
+    font-weight: 700;
+    /*text-align: center;*/
+}
+.features-grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 100px 50px;
+}
+.feature-container {
+    display: flex;
+    flex-direction: column;
+}
+.feature-description {
+    margin: 40px 0;
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    width: 190px;
+    text-transform: capitalize;
+}
+
+.banner1{
+    display: flex;
+    text-align: center;
+    background: url(./images/burger.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 1000px;
+    margin-bottom: 0px;
+
+}
+.banner1>h3{
+   margin:auto;
+   font-size: 100px;
+}
+
+.banner2{
+    margin-top: 0px;
+    display: flex;
+    text-align: center;
+    background: url(./images/banner-2.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 1000px;
+}
+
+.banner2>h3{
+    margin:auto;
+    font-size: 100px;
+ }
+ .footer{
+    padding-top: 50px;
+ }
+.footer-details{
+    display: grid;
+    margin: 40px 50px;
+    grid-template-columns: repeat(2,1fr) 2fr;
+    justify-content: space-around;
+    align-items: stretch;
+    column-gap: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #424242;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px;
+
+}
+.footer-mail {
+    background: url(./images/mail1.png);
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    zoom: 0.1;
+}
+.footer-mail1 {
+   /*background: url(./images/mail1.png);*/
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    zoom: 0.1;
+}
+.copyright {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg,#C77BF4 0%,#FF5672 100%);
+    box-shadow: -5px -5px 19px rgba(0,0,0,.23);
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.delivery{
+    background-color: aqua;
+    color: #FF5672;
+}
+ul li{
+    width: fit-content;
+    padding: 10px 5px;
+    list-style-position: inside;
+    cursor: pointer;
+}
+
+.grid2{
+    width: 500px;
+}
+body{
+    background-color: rgb(140, 174, 205);
+}
